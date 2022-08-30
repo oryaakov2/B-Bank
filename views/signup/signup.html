@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signup.css">
+    <title>Signup</title>
+</head>
+<body>
+    <main>
+        <nav id="navbar">
+            <ul>
+                <li><a href="/login">Login</a></li>
+                <li><a style="background-color: #6479d86c; color: #fff;" href="/signup">Signup</a></li>
+            </ul>
+        </nav>
+        <form id="signup-form">
+            <h1>Register</h1>
+
+            <label for="username">Username</label>
+            <input id="username" type="text" name="username" autocomplete="none" required>
+
+            <label for="password">Password</label>
+            <input id="password" type="password" name="password" required>
+
+            <label for="questionAnswer">Question: what is your dog's name?</label>
+            <input id="questionAnswer" type="text" name="questionAnswer" autocomplete="none" required>
+          
+            <button type="submit">Create User</button>
+        </form>
+    </main>
+    
+    <script src="signup.js"></script>
+</body>
+</html>
